@@ -1,0 +1,29 @@
+<xml>
+    <append xpath="/blocks">
+        <block name="showerHandle01OffsetLeft_SVR">
+            <property name="Material" value="Mmetal_thin"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="Entities/Plumbing/showerHandlePrefab"/>
+            <property name="ModelOffset" value="0,0,-1"/> <!-- Adjusted to move the model one block to the left -->
+            <property name="LODCullScale" value=".5"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="HandleFace" value="Bottom"/>
+            <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Weight" value="24"/>
+            <property name="EconomicValue" value="40"/> <!-- disassemble value -->
+            <property name="SortOrder1" value="B109"/>
+            <property name="SortOrder2" value="0202"/>
+            <property name="FilterTags" value="MC_building,SC_plumbing"/>
+            <property name="CustomIcon" value="showerHandle01"/>
+            <property name="CustomIconTint" value="A0A0A0"/> <!-- Added tint color -->
+        </block>
+        <block name="lightPanelLED_SVR">
+            <property name="Extends" value="lightPanelLEDWhite"/>
+            <property name="CustomIcon" value="lightPanelLEDWhite"/>
+            <property name="CustomIconTint" value="A0A0A0"/>
+            <property name="SortOrder2" value="0601"/>
+            <property name="ModelOffset" value="0,1.5,0"/> <!-- Adjusted to move the model offset -->
+        </block>
+    </append>
+</xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="custom_blocks_svr" /> 
+    <DisplayName value="Svariis Custom Blocks" /> 
+    <Version value="0.0.1.2" />
+    <Description value="Custom Blocks for _svr prefabs" />
+    <Author value="Svarii" />
+    <Website value="" />
+</xml>
