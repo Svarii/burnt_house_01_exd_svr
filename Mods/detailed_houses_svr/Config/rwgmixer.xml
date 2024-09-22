@@ -1,3 +1,4 @@
+<xml>
 <append xpath="/prefablist">
     <prefab name="house_burnt_01_exd_svr" min_count="5"/>
 </append>
@@ -9,3 +10,4 @@
 <append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wilderness']">    
     <prefab name="house_burnt_01_exd_svr" prob="0.3"/>
 </append>
+</xml>
