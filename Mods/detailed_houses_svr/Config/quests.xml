@@ -1,5 +1,5 @@
 <append>
-<quests>
-<quest id="quest_ClearBuilding1_Tenebracana_SVR" name_key="Clear Building 1/8" subtitle_key="Clear the house, Stay alive." description_key="Condemed for Methampehtamine manufacturing." icon="ui_game_symbol_hammer" >
-</quests>
+  <quests>
+    <quest id="quest_ClearBuilding1_burnt_house_01_exd_svr" name_key="Clear Building 1/8" subtitle_key="Clear the house, Stay alive." description_key="Condemned for Methamphetamine manufacturing." icon="ui_game_symbol_hammer" />
+  </quests>
 </append>
