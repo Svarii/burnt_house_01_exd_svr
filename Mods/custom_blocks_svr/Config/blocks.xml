@@ -1,29 +1,157 @@
 <xml>
-    <append xpath="/blocks">
-        <block name="showerHandle01OffsetLeft_SVR">
-            <property name="Material" value="Mmetal_thin"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="Entities/Plumbing/showerHandlePrefab"/>
-            <property name="ModelOffset" value="0,0,-1"/> <!-- Adjusted to move the model one block to the left -->
-            <property name="LODCullScale" value=".5"/>
-            <property name="WaterFlow" value="permitted"/>
-            <property name="HandleFace" value="Bottom"/>
-            <property name="Collide" value="melee,bullet,arrow,rocket"/>
-            <property name="StabilitySupport" value="false"/>
-            <property name="Weight" value="24"/>
-            <property name="EconomicValue" value="40"/> <!-- disassemble value -->
-            <property name="SortOrder1" value="B109"/>
-            <property name="SortOrder2" value="0202"/>
-            <property name="FilterTags" value="MC_building,SC_plumbing"/>
-            <property name="CustomIcon" value="showerHandle01"/>
-            <property name="CustomIconTint" value="A0A0A0"/> <!-- Added tint color -->
-        </block>
-        <block name="lightPanelLED_SVR">
-            <property name="Extends" value="lightPanelLEDWhite"/>
-            <property name="CustomIcon" value="lightPanelLEDWhite"/>
-            <property name="CustomIconTint" value="A0A0A0"/>
-            <property name="SortOrder2" value="0601"/>
-            <property name="ModelOffset" value="0,1.5,0"/> <!-- Adjusted to move the model offset -->
-        </block>
-    </append>
+<append xpath="/blocks">
+    <block name="showerHandle01OffsetLeft_SVR">
+        <property name="Material" value="Mmetal_thin"/>
+        <property name="Shape" value="ModelEntity"/>
+        <property name="Model" value="Entities/Plumbing/showerHandlePrefab"/>
+        <property name="ModelOffset" value="0,0,-1"/> <!-- Adjusted to move the model one block to the left -->
+        <property name="LODCullScale" value=".5"/>
+        <property name="WaterFlow" value="permitted"/>
+        <property name="HandleFace" value="Bottom"/>
+        <property name="Collide" value="melee,bullet,arrow,rocket"/>
+        <property name="StabilitySupport" value="false"/>
+        <property name="Weight" value="24"/>
+        <property name="EconomicValue" value="40"/> <!-- disassemble value -->
+        <property name="SortOrder1" value="B109"/>
+        <property name="SortOrder2" value="0202"/>
+        <property name="FilterTags" value="MC_building,SC_plumbing"/>
+        <property name="CustomIcon" value="powerSwitch01"/>
+        <property name="CustomIconTint" value="A0A0A0"/> <!-- Added tint color -->
+    </block>
+    <block name="lightPanelLED_SVR">
+        <property name="Extends" value="lightPanelLEDWhite"/>
+        <property name="CustomIcon" value="lightPanelLEDWhite"/>
+        <property name="CustomIconTint" value="938D87"/>
+        <property name="TintColor" value="A0A0A0"/>
+        <property name="SortOrder2" value="0601"/>
+        <property name="ModelOffset" value="0, 1.5, 0"/> <!-- Adjusted to move the model two blocks offset -->
+    </block>
+    <block name="satelliteUnitLarge_SVR">
+        <property name="Extends" value="satelliteUnitLarge"/>
+        <property name="CustomIcon" value="satelliteUnitLarge"/>
+        <property name="CustomIconTint" value="A0A0A0"/>
+        <property name="ModelOffset" value="0,1.5,0"/>
+    </block>
+<block name="pushButtonSwitch01HalfOffsetLeft_SVR">
+	<property name="Extends" value="pushButtonSwitch01"/>
+	<property name="CustomIcon" value="pushButtonSwitch01"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="-0.5,0,0"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="full"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="Left Offset Half Block pusButtonSwitch01"/>
+	<property name="DescriptionKey" value="I need this for a staircase"/>
+</block>
+<block name="pushButtonSwitch01HalfOffsetRight_SVR">
+	<property name="Extends" value="pushButtonSwitch01"/>
+	<property name="CustomIcon" value="pushButtonSwitch01"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="1.5,0,0"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="full"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="Left Offset Half Block pusButtonSwitch01"/>
+	<property name="DescriptionKey" value="I need this for a staircase"/>
+</block>
+<block name="conduitSingleCenteredHalfOffsetRight_SVR">
+	<property name="Extends" value="conduitSingleCentered"/>
+	<property name="CustomIcon" value="conduitSingleCentered"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="1.5,0,0"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="full"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="Left Offset Half Block pusButtonSwitch01"/>
+	<property name="DescriptionKey" value="I need this for a staircase"/>
+</block>
+<block name="awningCornerLeftRed_SVR">
+	<property name="Extends" value="awningCornerLeftRed"/>
+	<property name="CustomIcon" value="awningCornerLeftRed"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="0,0,-0.5"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="partial"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="OffsetAwning"/>
+	<property name="DescriptionKey" value="For Use with Half blocks"/>
+</block>
+<block name="awningCornerRightRed_SVR">
+	<property name="Extends" value="awningCornerRightRed"/>
+	<property name="CustomIcon" value="awningCornerRight"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="0,0,-0.5"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="partial"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="OffsetAwning"/>
+	<property name="DescriptionKey" value="For Use with Half blocks"/>
+</block>
+<block name="pictureSmallRandomHelperOffset_SVR">
+	<property name="Extends" value="pictureSmallRandomHelper"/>
+	<property name="CustomIcon" value="pictureSmallRandomHelper"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="-0.5,0.5,0"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="partial"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="Needed to center picture between two doorways"/>
+	<property name="DescriptionKey" value="I need this for a hallway"/>
+</block>
+
+	</append>
 </xml>
