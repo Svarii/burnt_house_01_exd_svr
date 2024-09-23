@@ -1,0 +1,1 @@
+![Alt text]([http://full/path/to/img.jpg "Optional title](https://steamuserimages-a.akamaihd.net/ugc/2459617657728096602/4FEF7E68A9E8BCFC86D674347AB8C32DCC32194B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)")
