@@ -112,6 +112,26 @@
 	<property name="LocalizationKey" value="OffsetAwning"/>
 	<property name="DescriptionKey" value="For Use with Half blocks"/>
 </block>
+<block name="awningStraightRed_SVR">
+	<property name="Extends" value="awningStraightRed"/>
+	<property name="CustomIcon" value="awningStraightRed"/>
+	<property name="CustomIconTint" value="#A0A0A0"/>
+	<property name="ModelOffset" value="0,0,-0.5"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="wood_footstep"/>
+	<property name="BlockCollision" value="partial"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+	<property name="LocalizationKey" value="OffsetAwning"/>
+	<property name="DescriptionKey" value="For Use with Half blocks"/>
+</block>
 <block name="awningCornerRightRed_SVR">
 	<property name="Extends" value="awningCornerRightRed"/>
 	<property name="CustomIcon" value="awningCornerRight"/>
@@ -152,6 +172,26 @@
 	<property name="LocalizationKey" value="Needed to center picture between two doorways"/>
 	<property name="DescriptionKey" value="I need this for a hallway"/>
 </block>
+<block name="radioHamOffset01_SVR">
+	<property name="Extends" value="radioHam"/>
+	<property name="CustomIcon" value="radioHam"/>
+	<property name="IndicatorIcon" value="Offset"/>
+	<property name="CustomIconTint" value="#a0a0a0"/>
+	<property name="ModelOffset" value="0,0.5,-0.5"/>
+	<property name="IsSolid" value="true"/>
+	<property name="BlockShape" value="cube"/>
+	<property name="BlockWeight" value="10"/>
+	<property name="Mass" value="10"/>
+	<property name="Density" value="1"/>
+	<property name="PowerRange" value="10"/>
+	<property name="PathCost" value="1"/>
+	<property name="BlockSound" value="metal_footstep"/>
+	<property name="BlockCollision" value="full"/>
+	<property name="BlockDurability" value="1000"/>
+	<property name="BlockCrafting" value="wood: 10, nails: 5"/>
+	<property name="BlockPlacement" value="above_ground"/>
+</block>
+
 
 	</append>
 </xml>
