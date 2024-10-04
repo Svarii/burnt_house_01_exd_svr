@@ -1,2 +1,2 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-house_burnt_01_exd_svr,house_burnt_01_exd_svr,prefab,False,False,"Clopex Estate","",Clopex Anwesen,Finca Clopex,Domaine Clopex,Tenuta Clopex,クロペックス邸,클로펙스 저택,Posiadłość Clopex,Propriedade Clopex,Усадьба Клопек,Clopex Malikanesi,克洛佩克斯庄园,克洛佩克斯莊園
+house_burnt_01_exd_svr,POI,POIName,False,False,"Clopex Estate","",Clopex Anwesen,Finca Clopex,Domaine Clopex,Tenuta Clopex,クロペックス邸,클로펙스 저택,Posiadłość Clopex,Propriedade Clopex,Усадьба Клопек,Clopex Malikanesi,克洛佩克斯庄园,克洛佩克斯莊園

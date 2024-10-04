@@ -1,5 +1,6 @@
 <xml>
 <append xpath="/blocks">
+
     <block name="showerHandle01OffsetLeft_SVR">
         <property name="Material" value="Mmetal_thin"/>
         <property name="Shape" value="ModelEntity"/>
@@ -192,6 +193,5 @@
 	<property name="BlockPlacement" value="above_ground"/>
 </block>
 
-
-	</append>
+</append>
 </xml>
